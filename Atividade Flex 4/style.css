@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+*{
+    margin: 0px;
+}
+
+
 body{
     font-family: "Inter", sans-serif;
 }
@@ -9,7 +14,7 @@ body{
 .pesquisa{
     display: flex;
     width: 840px;
-    padding: 6px 16px;
+    padding: 24px 16px;
     align-items: center;
     gap: 10px;
     border-radius: 8px;
@@ -23,3 +28,35 @@ body{
     font-weight: 500;
 }
 
+/*BANNER*/
+.banner{
+    display: flex;
+    width: 840px;
+    height: 182px;
+    padding: 0px 7px 0px 24px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFF;
+    border-radius: 10px;
+    background: var(--Default, #2F80ED);
+}
+
+.banner .content{
+    display: flex;
+    width: 598px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.banner button{
+    display: flex;
+    height: 36px;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 40px;
+    color: #FFF;
+    background: var(--color-gray-100, #202020);
+}
