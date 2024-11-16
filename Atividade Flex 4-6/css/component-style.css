@@ -9,16 +9,30 @@ body{
     font-family: "Inter", sans-serif;
 }
 
+.workspace{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .tag{
     display: flex;
-    width: 94px;
-    padding: 4px;
+    width: 86px;
     align-items: center;
-    color: #2667BF;
-    font-size: 12px;
-    font-weight: 400;
+    justify-content: center;
+    padding: 5px 10px;
+    gap: 10px;
     border-radius: 8px;
     background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));
 }
 
+.tag p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #2667BF;
+    text-align: center;
+}
 
