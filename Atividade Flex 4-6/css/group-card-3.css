@@ -1,0 +1,17 @@
+.group-card-3{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.group-card-3 .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group-card-3 .title a{
+    color: #2667BF;
+}
