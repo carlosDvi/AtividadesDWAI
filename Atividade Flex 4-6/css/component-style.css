@@ -18,6 +18,23 @@ body{
     gap: 20px;
 }
 
+.workspace-group-all{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.principal-content{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .tag{
     display: flex;
     width: 86px;
@@ -36,3 +53,16 @@ body{
     text-align: center;
 }
 
+.position-l{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+}
+
+.position-r{
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    height: 100%; 
+}
