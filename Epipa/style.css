@@ -190,3 +190,25 @@ header{
 .title2{
     text-align: left;
 }
+
+.fotos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow-y: hidden;
+}
+
+.fotos .card-img{
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.fotos .card-img img{
+    height: 280px;
+    align-self: stretch;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
+}
