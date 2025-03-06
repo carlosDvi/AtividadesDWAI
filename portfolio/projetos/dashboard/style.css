@@ -1,4 +1,3 @@
-/* Reset e Importação de Fontes */
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Base */
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -17,7 +15,6 @@ img {
   display: block;
 }
 
-/* Header */
 header {
   display: flex;
   align-items: center;
@@ -56,7 +53,6 @@ header {
   font-weight: 700;
 }
 
-/* Layout Geral */
 .dashboard-container {
   display: flex;
 }
@@ -78,7 +74,6 @@ header {
   font-weight: 400;
 }
 
-/* Navegação (Sidebar) */
 .nav-menu,
 .nav-extra {
   display: flex;
@@ -111,7 +106,6 @@ header {
   align-items: center;
 }
 
-/* Main Dashboard */
 .dashboard-main {
   display: flex;
   flex-direction: column;
@@ -120,7 +114,6 @@ header {
   width: 100%;
 }
 
-/* Page Header */
 .page-header {
   display: flex;
   width: 100%;
@@ -190,7 +183,6 @@ header {
   font-size: 14px;
 }
 
-/* Estatísticas */
 .stats-cards {
   display: flex;
   justify-content: space-between;
@@ -251,7 +243,6 @@ header {
   font-weight: 400;
 }
 
-/* Ações Rápidas */
 .quick-actions {
   display: flex;
   flex-direction: column;
@@ -329,7 +320,6 @@ header {
   line-height: 140%;
 }
 
-/* Conteúdo do Dashboard */
 .dashboard-content {
   display: flex;
   justify-content: space-between;
@@ -388,7 +378,6 @@ header {
   width: 60px;
 }
 
-/* Gráficos */
 .chart-container {
   display: flex;
   flex-direction: column;
@@ -476,7 +465,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  align-items: flex-start;
 }
 
 .widget-title {
@@ -559,5 +547,11 @@ header {
   font-size: 14px;
   font-weight: 400;
   opacity: 0.8;
+}
+
+.recent-activities .widget-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
